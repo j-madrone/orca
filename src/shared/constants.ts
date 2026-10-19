@@ -130,6 +130,7 @@ export function getDefaultVoiceControlSettings(): VoiceControlSettings {
     maxSessionMinutes: 30,
     idleSuspendMinutes: 5,
     voiceSpeed: 1,
+    voiceGating: true,
     customInstructions: ''
   }
 }
